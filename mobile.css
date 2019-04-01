@@ -92,7 +92,8 @@
     height: 30px !important;
 }
 .x-tool-expand-south{
-    background-position: 0 -420px !important;
+    /*background-position: 0 -420px !important;*/
+    background-position: 0 -390px !important;
     background-image: url(../images/gray/panel/tool-sprites.gif);
 }
 .x-tool-collapse-south{
