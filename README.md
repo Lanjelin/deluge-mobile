@@ -10,3 +10,6 @@ proxy_set_header Accept-Encoding "";
 sub_filter '</head>' '<link rel="stylesheet" type="text/css" href="https://lanjelin.github.io/deluge-mobile/mobile.css"><meta name="viewport" content="width=device-width, initial-scale=1"></head>';
 sub_filter_once on;
 ```
+
+#### Todo:
+* Expand buttons disappears when hiding panels on phone.
