@@ -73,10 +73,10 @@
     height: 30px !important;
 }
 .x-tool-expand-west{
-    background-position: 0 -330px;
+    background-position: 0 -330px !important;
 }
 .x-tool-collapse-west{
-    background-position: 0 -360px;
+    background-position: 0 -360px !important;
 }
 
 /* Expand button bottom bar */
@@ -90,8 +90,8 @@
     height: 30px !important;
 }
 .x-tool-expand-south{
-    background-position: 0 -420px;
+    background-position: 0 -420px !important;
 }
 .x-tool-collapse-south{
-    background-position: 0 -390px;
+    background-position: 0 -390px !important;
 }
