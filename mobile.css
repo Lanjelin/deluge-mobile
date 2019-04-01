@@ -1,0 +1,97 @@
+/* Hide some buttons at top */
+.x-deluge-main-panel, .x-deluge-preferences, .icon-help, .icon-logout, #help, #preferences, #tbar-deluge-text, #logout {
+    display: none !important;
+}
+/* Hide spacers at top */
+.xtb-sep {
+    display: none !important;
+}
+/* Hide statusbar */
+#ext-gen37 {
+    display: none !important;
+}
+/* Make buttons bigger, and remove text */
+.icon-add, .icon-remove, .icon-pause, .icon-resume, .icon-up, .icon-down, .x-deluge-connection-manager, .x-deluge-add-file, .icon-add-url {
+    font-size: 0 !important;
+    height: 30px !important;
+    width: 30px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+/*Window positioning and sizing*/
+.x-window {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+.x-window-body {
+    width: 99% !important;
+}
+
+/* Torrent grid adjustments */
+.x-grid3-sort-icon {
+    display: none !important;
+}
+.x-grid3-td-queue {
+    width: 15px !important;
+}
+.x-grid3-td-name {
+    width: 400px !important;
+}
+/*Moving buttons in add torrents window*/
+.x-window-footer .x-panel-fbar .x-toolbar-ct{
+    left: 0px !important;
+    width: 10px !important;
+}
+/*Removing collapsed sidebar and details panel*/
+#sidebar-xcollapsed{
+    width: 0px !important;
+    border: 0 !important;
+}
+#detailsPanel-xcollapsed{
+    height: 0px !important;
+    border: 0 !important;
+}
+#torrentGrid{
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+/* Top bar adjust*/
+.x-toolbar  .x-toolbar-ct .x-toolbar-left{
+    padding-left: 70px !important;
+}
+/* Expand button left sidebar to top*/
+.x-tool-expand-west, .x-tool-collapse-west{
+    top: 5px !important;
+    left: 5px !important;
+    position: fixed !important;
+    margin: 0 !important;
+    background-size: 200% !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+.x-tool-expand-west{
+    background-position: 0 -330px;
+}
+.x-tool-collapse-west{
+    background-position: 0 -360px;
+}
+
+/* Expand button bottom bar */
+.x-tool-expand-south, .x-tool-collapse-south{
+    top: 5px !important;
+    left: 40px !important;
+    position: fixed !important;
+    margin: 0 !important;
+    background-size: 200% !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+.x-tool-expand-south{
+    background-position: 0 -420px;
+}
+.x-tool-collapse-south{
+    background-position: 0 -390px;
+}
