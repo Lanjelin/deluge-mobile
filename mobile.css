@@ -50,11 +50,11 @@
 }
 /*Removing collapsed sidebar and details panel*/
 #sidebar-xcollapsed{
-    width: 0px !important;
+    width: 1px !important;
     border: 0 !important;
 }
 #detailsPanel-xcollapsed{
-    height: 0px !important;
+    height: 1px !important;
     border: 0 !important;
 }
 #torrentGrid{
