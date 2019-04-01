@@ -81,6 +81,12 @@
 .x-tool-collapse-west{
     background-position: 0 -360px !important;
 }
+.x-tool-expand-west:hidden{
+    display:none !important;
+}
+.x-tool-collapse-west:hidden{
+    display:none !important;
+}
 
 /* Expand button bottom bar */
 .x-tool-expand-south, .x-tool-collapse-south{
@@ -97,4 +103,10 @@
 }
 .x-tool-collapse-south{
     background-position: 0 -390px !important;
+}
+.x-tool-expand-south:hidden{
+    display:none !important;
+}
+.x-tool-collapse-south:hidden{
+    display:none !important;
 }
