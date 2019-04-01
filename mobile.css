@@ -40,6 +40,9 @@
 .x-grid3-td-name {
     width: 400px !important;
 }
+.x-grid3-row{
+    width: 856px !important;
+}
 /*Moving buttons in add torrents window*/
 .x-window-footer .x-panel-fbar .x-toolbar-ct{
     left: 0px !important;
