@@ -93,7 +93,21 @@
 }
 .x-tool-expand-south{
     background-position: 0 -420px !important;
+    top: 5px !important;
+    left: 40px !important;
+    position: fixed !important;
+    margin: 0 !important;
+    background-size: 200% !important;
+    width: 30px !important;
+    height: 30px !important;
 }
 .x-tool-collapse-south{
     background-position: 0 -390px !important;
+    top: 5px !important;
+    left: 40px !important;
+    position: fixed !important;
+    margin: 0 !important;
+    background-size: 200% !important;
+    width: 30px !important;
+    height: 30px !important;
 }
