@@ -91,13 +91,18 @@
     left: 40px !important;
     position: fixed !important;
     margin: 0 !important;
-    background-size: 200% !important;
+    /*background-size: 200% !important;*/
     width: 30px !important;
     height: 30px !important;
+    
 }
 .x-tool-expand-south{
-    background-position: 0 -420px !important;
+    /*background-position: 0 -420px !important;*/
+    background-position: 0 0 !important;
+    background-image:url('https://lanjelin.github.io/deluge-mobile/icons/double-up-30.png') !important;
 }
 .x-tool-collapse-south{
-    background-position: 0 -390px !important;
+    /*background-position: 0 -390px !important;*/
+    background-position: 0 0 !important;
+background-image:url('https://lanjelin.github.io/deluge-mobile/icons/double-down-30.png') !important;
 }
