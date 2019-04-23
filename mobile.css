@@ -102,6 +102,6 @@
 .x-tool-collapse-south{
     background-position: 0 -390px !important;
 }
-.x-layout-collapsed{
+.x-layout-collapsed, .x-layout-collapsed-west, #sidebar-xcollapsed, .x-layout-collapsed-south, .x-layout-collapsed-over, #detailsPanel-xcollapsed {
     visibility: visible !important;
 }
