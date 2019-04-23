@@ -91,7 +91,7 @@
     left: 40px !important;
     position: fixed !important;
     margin: 0 !important;
-    /*background-size: 200% !important;*/
+    background-size: 200% !important;
     width: 30px !important;
     height: 30px !important;
     
@@ -102,7 +102,6 @@
 .x-tool-collapse-south{
     background-position: 0 -390px !important;
 }
-/* Buttons are invisble in collapsed state */
 .x-layout-collapsed{
     visibility: visible !important;
 }
