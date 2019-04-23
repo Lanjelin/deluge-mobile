@@ -104,9 +104,3 @@
 .x-tool-collapse-south{
     background-position: 0 -390px !important;
 }
-.x-layout-collapsed, .x-layout-collapsed-west, #sidebar-xcollapsed, .x-layout-collapsed-south, .x-layout-collapsed-over, #detailsPanel-xcollapsed, .x-tool-collapse-south,.x-tool-expand-south, .x-tool-expand-west, .x-tool-collapse-west{
-    visibility: visible !important;
-}
-div{
-    display:block;
-}
