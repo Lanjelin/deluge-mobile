@@ -79,6 +79,7 @@
     width: 30px !important;
     height: 30px !important;
     display: block !important;
+    float: none !important;
 }
 .x-tool-expand-west{
     background-position: 0 -330px !important;
@@ -96,7 +97,7 @@
     width: 30px !important;
     height: 30px !important;
     display: block !important;
-    
+    float: none !important;    
 }
 .x-tool-expand-south{
     background-position: 0 -420px !important;
