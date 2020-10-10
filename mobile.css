@@ -6,10 +6,10 @@
 .xtb-sep {
     display: none !important;
 }
-/* Hide statusbar */
-/*#ext-gen37 {
-    display: none !important;
-}*/
+
+#deluge-statusbar {
+   overflow:auto;
+}
 
 /* Make buttons bigger, and remove text */
 .icon-add, .icon-remove, .icon-pause, .icon-resume, .icon-up, .icon-down, .x-deluge-connection-manager, .x-deluge-add-file, .icon-add-url {
